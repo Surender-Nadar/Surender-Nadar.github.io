@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Surender Nadar · Publishing Lead & Web Developer</title>
+<meta name="description" content="Surender Nadar (Suri) is a Publishing Lead Analyst and web developer in Mumbai. Adobe Experience Manager by day, movies, food, travel and tiny games the rest of the time.">
+<meta name="theme-color" content="#0d0e12">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Surender Nadar · Publishing Lead & Web Developer">
+<meta property="og:description" content="Publishes websites by day. Plays, roams and eats the rest of the time. Come play a game.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="bat" viewBox="0 0 100 50"><path d="M50 9L52.5 2L55 9Q62 11 66 8Q64 13 67 16Q82 12 100 23Q89 24 83 34Q78 29 72 31Q66 31 62 42Q58 37 56 29L50 46Z"/><path d="M50 9L52.5 2L55 9Q62 11 66 8Q64 13 67 16Q82 12 100 23Q89 24 83 34Q78 29 72 31Q66 31 62 42Q58 37 56 29L50 46Z" transform="matrix(-1 0 0 1 100 0)"/></symbol></svg>
+<div class="bar" id="bar" aria-hidden="true"></div>
+<div class="signal" aria-hidden="true"><svg viewBox="0 0 100 50"><use href="#bat"/></svg></div>
+<div class="glow" aria-hidden="true"></div><div id="toast" role="status" aria-live="polite"></div>
+<div class="web" aria-hidden="true"><svg viewBox="0 0 200 200"><path d="M200 0L0 0M200 0L0 60M200 0L0 125M200 0L25 200M200 0L95 200M200 0L165 200M200 0L200 200M140 0Q148 8 140 18M140 18Q148 24 140 38M140 38Q152 42 148 60M148 60Q164 52 168 60M168 60Q182 52 190 60M190 60Q195 52 200 60M90 0Q105 14 90 33M90 33Q105 44 90 69M90 69Q111 77 104 110M104 110Q134 95 142 110M142 110Q167 95 181 110M181 110Q192 95 200 110M40 0Q62 21 40 48M40 48Q62 64 40 100M40 100Q71 112 60 160M60 160Q104 138 116 160M116 160Q152 138 172 160M172 160Q188 138 200 160" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div>
+<div class="strip" aria-label="Little roaming characters">
+ <button class="wk" style="--d:38s" data-q="Meow. I don't do Instagram either. 🐈" aria-label="Cat"><span>🐈</span></button>
+ <button class="wk l" style="--d:46s;--dl:-14s" data-q="Off to try a new dish 🍜" aria-label="Walker"><span>🚶</span></button>
+ <button class="wk" style="--d:80s;--dl:-35s" data-q="Slow and steady, like my WhatsApp replies. 🐢" aria-label="Turtle"><span>🐢</span></button>
+ <button class="wk bt l" style="--d:13s" data-q="I'm Batman. 🦇" aria-label="Bat"><span>🦇</span></button>
+ <button class="wk sp" style="--d:20s" data-q="Thwip! 🕸️" aria-label="Spider"><span>🕷️</span></button>
+</div>
+<button class="peek" data-q="You found me. 🕵️" aria-label="Someone is peeking"><span>🕵️</span></button>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="nav">
+  <div class="brand"><a class="logo" href="#top">suri<span>.</span></a></div>
+  <button class="menu" id="menu" aria-expanded="false" aria-controls="links">Menu</button>
+  <nav id="links" aria-label="Main"><a href="#play">Play</a><a href="#roam">Roam</a><a href="#snaps">Snaps</a><a href="#me">Me</a><a href="#giving">Giving</a><a href="#work">Career</a><a href="#contact">Say hi</a></nav>
+<div class="modes" role="group" aria-label="Fun modes"><button class="mode-btn nudge" data-m="gotham" aria-pressed="false">🦇 Batman mode</button><button class="mode-btn nudge" data-m="spidey" aria-pressed="false">🕷️ Spider-Man mode</button></div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+ <div class="herox">
+  <div class="txt">
+    <button class="status" id="status" title="Click for another status"><i></i><span id="statusText" aria-live="polite">currently enjoying life to the fullest</span></button>
+    <p class="hi reveal">Oh hey 👋 You found my little corner of the internet.</p>
+    <h1>Hey, I'm <span class="name" tabindex="0">Surender.<small class="alt">(Suri to friends)</small></span></h1>
+    <p class="lede">By day I publish websites for big companies. After hours: movies, playlists, temple weekends, food adventures, and volunteering whenever I can.</p>
+    <p class="rot">I'm <span id="rot">an introvert with a corporate extrovert mode</span></p>
+    <p class="meta"><span>Publishing Lead Analyst · Web Developer</span><span>Mumbai, India</span></p>
+    <div class="row">
+      <a class="btn primary" href="#play">Play something ↓</a>
+      <a class="btn" href="https://linkedin.com/in/surender-nadar" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/Surender-Nadar" target="_blank" rel="noopener">GitHub</a><a class="btn" href="mailto:surendernadar3@gmail.com">Email</a>
+    </div>
+  </div>
+  <figure class="pic"><img src="photos/portrait.jpeg" onerror="this.onerror=null;this.src='portrait.svg'" alt="Portrait of Surender Nadar" width="320" height="400" fetchpriority="high" decoding="async"><figcaption>Suri, in the wild (very rare)</figcaption></figure>
+ </div>
+</section>
+
+<section id="play" class="sec">
+  <h2>Boredom is optional.</h2>
+  <p class="sub">Two tiny games, one secret. Scores stay in your browser.</p>
+  <div class="games">
+    <div class="game">
+      <h3>Gotham Flap 🦇</h3>
+      <p class="gh">Tap, click or press Space to flap. Squeeze through the gaps. Grab 🍜 for bonus points.</p>
+      <canvas id="flap" width="320" height="400" tabindex="0" aria-label="Gotham Flap game"></canvas>
+      <p class="gs" id="fscore" aria-live="polite"></p>
+    </div>
+    <div class="game">
+      <h3>Clear the rooftops 🌃</h3>
+      <p class="gh">30 seconds. Tap the bad guys 🦹. Don't tap the cats 🐈.</p>
+      <div class="roofs" id="roofs"></div>
+      <p class="gs" id="wscore" aria-live="polite"></p>
+      <button class="btn" id="wgo">Start</button>
+    </div>
+    <div class="game wide">
+      <h3>Dish roulette 🍽️</h3>
+      <p class="gh">No idea what to eat? Spin the plate and try something new.</p>
+      <div class="pick" id="pick" aria-live="polite">🍽️ ?</div>
+      <p class="gs" id="dcount"></p>
+      <button class="btn" id="spin">Spin the plate</button>
+    </div>
+  </div>
+  <p class="psst">Psst. Something in the footer is hiding. Or press <kbd>B</kbd>.</p>
+</section>
+
+<section id="roam" class="sec">
+  <h2>I roam. For fun.</h2>
+  <p class="sub">No work trips. Just me, a bag and an appetite. Eight ticked off, Other states still to go.</p>
+  <ul class="places"><li>🏔️ Kashmir</li><li>🌴 Kerala</li><li>🛕 Tamil Nadu</li><li>🏙️ Maharashtra <small>home turf</small></li><li>🦁 Gujarat</li><li>🌾 Punjab</li><li>🏛️ Delhi</li><li>🏰 Agra</li><li class="todo">🧗 Other states <small>yet to be explored</small></li></ul>
+</section>
+
+<section id="snaps" class="sec">
+  <h2>The photo dump.</h2>
+  <p class="sub">A messy pile of Polaroids. They develop when you touch them. Shuffle for new ones, tap one to open it and flick through all of them.</p>
+  <div class="pile" id="pile"></div>
+  <button class="btn" id="toss">Shuffle the pile 🎲</button>
+  <dialog id="dlg" aria-label="Photo viewer"><img alt=""><p></p><div class="dctl"><button class="btn" id="dp" aria-label="Previous photo">←</button><button class="btn" id="dc">Close</button><button class="btn" id="dn" aria-label="Next photo">→</button></div></dialog>
+</section>
+
+<section id="me" class="sec">
+  <h2>A mixed breed.</h2>
+  <p class="sub">Flip the switch to see both versions of me.</p>
+  <button class="switch" id="mode" role="switch" aria-checked="false"><span>Corporate extrovert</span><i></i><span>Real-life introvert</span></button>
+  <p class="persona" id="persona" aria-live="polite">Calls, meetings, stakeholder chats: I show up, speak up and keep things moving.</p>
+  <ul class="likes">
+    <li tabindex="0">🎬 Movies<span>Plenty. Ask me anything.</span></li>
+    <li tabindex="0">🎧 Songs<span>Always on.</span></li>
+    <li tabindex="0">🍜 Food<span>New dish? New cuisine? Yes.</span></li>
+    <li tabindex="0">🛕 Temple<span>Every weekend.</span></li>
+    <li tabindex="0">🚫 Parties<span>Hard pass.</span></li>
+    <li tabindex="0">📵 Social media<span>Retired my account a few years ago.</span></li>
+    </ul>
+  <figure class="walt"><div class="tile"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M16 30c0-11 7-17 16-17s16 6 16 17z" fill="#111"/><rect x="6" y="29" width="52" height="6" rx="3" fill="#111"/><rect x="16" y="25" width="32" height="4" fill="#5eea9e"/><circle cx="22" cy="48" r="8" fill="none" stroke="#fff" stroke-width="3"/><circle cx="42" cy="48" r="8" fill="none" stroke="#fff" stroke-width="3"/><path d="M30 48h4" stroke="#fff" stroke-width="3"/></svg></div><div><blockquote>“I did it for me. I liked it. I was good at it.”</blockquote><figcaption>Walter White</figcaption></div></figure>
+
+</section>
+
+<section id="giving" class="sec">
+  <h2>I volunteer. A lot.</h2>
+  <p class="sub">Turns out showing up adds up.</p>
+  <div class="give">
+    <div class="stat"><b data-n="7" data-suf="–8">0</b><span>volunteering events, recently</span></div>
+    <div class="stat"><b data-n="800" data-suf="+">0</b><span>USD raised along the way</span></div>
+  </div>
+  <button class="btn" id="love">Send a little good vibe 💛</button>
+</section>
+
+<section id="work" class="sec">
+  <h2>My career quest.</h2>
+  <p class="sub">Three levels so far. Tap a card to see what I did there.</p>
+  <div class="quest">
+    <details class="co" open>
+      <summary><span class="lvl">Level 3 · now</span><b class="coname">BlackRock</b><span class="role">Publishing Lead Analyst</span><span class="dates">May 2026 – present · Goregaon</span></summary>
+      <ul><li>Leading enterprise publishing on TeamSite and AEM Cloud Service</li><li>Running the TeamSite → AEM migration: 700+ pages, planned and tracked</li><li>Creating AEM templates, documentation and training</li><li>🚧 More to come: still being added and worked on. I'll update this as my journey continues.</li></ul>
+    </details>
+    <details class="co">
+      <summary><span class="lvl">Level 2</span><b class="coname">Accenture</b><span class="role">Web Developer Associate</span><span class="dates">Oct 2024 – Apr 2026 · Mumbai, hybrid</span></summary>
+      <ul><li>Managed 550+ enterprise pages in AEM and Veeva, MLR-compliant</li><li>Built two internal tools: Quality Efficient Tool and AEM Swift Nav</li><li>Raised FPY from 77.32% to 97.72%</li><li>Accessible, responsive, cross-browser pages, tested with BrowserStack</li><li>3× Best Worker Award</li></ul>
+    </details>
+    <details class="co">
+      <summary><span class="lvl">Level 1</span><b class="coname">The studies</b><span class="role">MCA · BSc IT</span><span class="dates">2019 – 2025 · Mumbai</span></summary>
+      <ul><li>MCA, K J Somaiya Institute of Management (2022–2025)</li><li>BSc IT, University of Mumbai, Vidyalankar School of Information Technology (2019–2022)</li><li>Certificates: Full Stack Developer (RSTForum), Intro to Data Science (Infosys Springboard)</li></ul>
+    </details>
+  </div>
+  <h3 class="h3s">Achievements unlocked 🏆 (tap them)</h3>
+  <ul class="achs"><li><button class="ach">3× Best Worker Award</button></li><li><button class="ach">550+ pages managed</button></li><li><button class="ach">700+ page migration</button></li><li><button class="ach">FPY 77.32% → 97.72%</button></li><li><button class="ach">Built AEM Swift Nav</button></li><li><button class="ach">Built Quality Efficient Tool</button></li><li><button class="ach">7 AEM templates delivered</button></li></ul>
+  <h3 class="h3s">Try my day job, the fun version 🛠️</h3>
+  <p class="sub" style="margin-top:0">Build a page, then send it through the publishing flow.</p>
+  <div class="aem">
+    <div class="palette" role="group" aria-label="Page components"><button data-b="hero">+ Hero</button><button data-b="teaser">+ Teaser</button><button data-b="form">+ Form</button><button data-b="cards">+ Cards</button><button data-b="chart">+ Chart</button><button data-b="footer">+ Footer</button></div>
+    <div class="page" id="pg" aria-live="polite"></div>
+    <ol class="flow" id="flow"><li>Author</li><li>Review</li><li>Approve</li><li>Publish</li></ol>
+    <div class="actions"><button class="btn" id="undo">Undo</button><button class="btn primary" id="pub">Send for publishing →</button></div>
+    <p class="gs" id="pubmsg" aria-live="polite"></p>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <h2>Let's talk. Or don't. 😄</h2>
+  <p class="sub">I'm barely on social media, so here's the Suri radar. Tap a blip to see your odds.</p>
+  <div class="reach">
+    <a class="rc" href="mailto:surendernadar3@gmail.com"><span>📧</span><b>surendernadar3@gmail.com</b><small>Email me</small></a>
+    <a class="rc" href="tel:+917045164903"><span>📞</span><b>+91 70451 64903</b><small>Call me</small></a>
+  </div>
+  <div class="row">
+    <button class="btn primary" id="copy">Copy email</button>
+    <a class="btn" href="https://github.com/Surender-Nadar" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" data-link="x" hidden>X (formerly Twitter)</a>
+    <a class="btn" data-link="resume" hidden>Resume</a>
+  </div>
+  <div class="radarbox">
+    <div class="radar" role="group" aria-label="Suri radar, tap a blip"><div class="sweep" aria-hidden="true"></div><span class="you" aria-hidden="true">🦸</span><button class="blip" style="left:64.3%;top:29.5%" data-k="li" aria-pressed="false" aria-label="LinkedIn"><span>🤝</span><small>LinkedIn</small></button><button class="blip" style="left:79.1%;top:60.6%" data-k="x" aria-pressed="false" aria-label="X"><span>𝕏</span><small>X</small></button><button class="blip" style="left:34.0%;top:44.2%" data-k="ph" aria-pressed="false" aria-label="Phone"><span>📞</span><small>Phone</small></button><button class="blip dim" style="left:15.4%;top:70.0%" data-k="wa" aria-pressed="false" aria-label="WhatsApp"><span>💬</span><small>WhatsApp</small></button><button class="blip rare" style="left:22.5%;top:10.7%" data-k="ip" aria-pressed="false" aria-label="In person"><span>🦇🕷️</span><small>In person</small></button><button class="blip dim off" style="left:83.8%;top:90.2%" data-k="ig" aria-pressed="false" aria-label="Instagram"><span>📷</span><small>Instagram</small></button></div>
+    <div class="rdetail" aria-live="polite"><b id="rdt"></b><p id="rdp"></p><a class="btn primary" id="rda" hidden></a></div>
+  </div>
+  <div class="termwin" id="term">
+    <div class="tbar"><i></i><i></i><i></i><span>suri@corner: ~ (a little command line, try it)</span></div>
+    <div id="out" role="log" aria-live="polite"></div>
+    <div class="cmds" role="group" aria-label="Try a command">
+      <button data-c="help">help</button><button data-c="whoami">whoami</button><button data-c="work">work</button><button data-c="food">food</button><button data-c="social">social</button><button data-c="batman">batman</button><button data-c="spiderman">spiderman</button><button data-c="heisenberg">heisenberg</button><button data-c="pinkman">pinkman</button><button data-c="clear">clear</button>
+    </div>
+    <form id="termf"><label for="cmd" class="sr">Type a command</label><span aria-hidden="true">$</span><input id="cmd" placeholder="or type a command and press Enter" autocomplete="off" spellcheck="false"></form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>Built with popcorn, playlists and questionable amounts of CSS. No half measures.</p>
+  <p>© <span id="yr">2026</span> Surender Nadar. No copyright stamp needed: it\'s all me, so it\'s self-registered ✅ <button class="batbtn" aria-label="Secret: toggle Gotham mode" title="Don't click">🦇</button></p>
+  <p class="fl"><a href="https://github.com/Surender-Nadar" target="_blank" rel="noopener">GitHub</a><a href="https://linkedin.com/in/surender-nadar" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:surendernadar3@gmail.com">Email</a></p>
+</footer>
+</body>
+</html>
